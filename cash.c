@@ -11,37 +11,32 @@ int main()
       a=n/100;
       if(a>=1)
       {
-        printf(" %dx100",a);
+        printf(" %d x 100",a);
         n=n-(a*100);
       }
       b=n/50;
       if(b>=1)
       {
-        printf(" %dx50",b);
+        printf(" %d x 50",b);
         n=n-(b*50);
       }
       c=n/10;
       if(c>=1)
       {
-        printf(" %dx10",c);
+        printf(" %d x 10",c);
         n=n-(c*10);
       }
       d=n/5;
       if(d>=1)
       {
-        printf(" %dx5",d);
+        printf(" %d x 5",d);
         n=n-(d*5);
       }
       e=n/1;
       if(e>=1)
       {
-        printf(" %dx1",e);
+        printf(" %d x 1",e);
       }
-    }
-    else if(n==0)
-    {
-      z=2;
-      printf("\n#############################\n");
     }
     else
     {
